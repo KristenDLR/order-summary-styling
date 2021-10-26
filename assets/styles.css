@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+  /* background: linear-gradient(to bottom left, cyan 50%, palegoldenrod 50%); */
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/pattern-background-desktop.svg) ;
+  background-color: hsl(225, 100%, 94%) !important;
+  background-size: 100%;
+}
+
+.order-text {
+  border-radius: 25px;
+  background: white;
+  /* padding: 20px;
+  width: 200px; */
+  /* height: 150px; */
+  box-shadow: 0px 0px 80px 5px hsl(224, 23%, 55%);
+}
+
+.dancing {
+  /* background-image: url(../assets/images/illustration-hero.svg); */
+  background-color: hsl(245, 75%, 52%);
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.dancing img {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.text {
+  padding: 20px;
+}
+
+h1{
+  text-align:center;
+  font-size:16px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+p{
+  text-align:center;
+  font-size:16px;
+  font-family: 'Red Hat Display', sans-serif;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.planWrapper {
+  background-color:hsl(225, 100%, 98%);
+  border-radius: 15px;
+  padding: 10px;
+}
+.plan{
+  text-align: center;
+
+
+}
+.text{
+  color:hsl(223, 47%, 23%);
+}
+
+.text2{
+  font-weight: 900;
+  font-size:20px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.payment {
+  background-color:hsl(245, 75%, 52%);
+  width:90%;
+  margin:20px;
+  border-radius: 10px;
+  color:hsl(225, 100%, 98%);
+  padding: 15px;
+  font-weight: bold;
+  box-shadow: 20px 20px 60px 0px hsl(224, 23%, 55%);
+}
+
+.cancel {
+  color:black;
+}
+
+.content {
+  padding-top: 200px;
+}
