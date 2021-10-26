@@ -85,3 +85,9 @@ p{
 .content {
   padding-top: 200px;
 }
+
+footer{
+  padding: 50px;
+  position: sticky;
+  text-align: center;
+}
